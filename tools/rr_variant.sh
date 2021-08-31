@@ -49,7 +49,6 @@ echo -e ${cya}" ▼ Pick a number"${txtrst}
 echo -e "";
 $normal
 read -t 30 askvariant
-sleep 1
 if [ "$askvariant" == "1" ]
 then
 echo -e "";
@@ -58,7 +57,6 @@ export RR_BUILDTYPE=Unofficial
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
 if [ "$askvariant" == "2" ]
 then
@@ -68,7 +66,6 @@ export RR_BUILDTYPE=Nightly
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
 if [ "$askvariant" == "3" ]
 then
@@ -78,7 +75,6 @@ export RR_BUILDTYPE=Weekly
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
 if [ "$askvariant" == "4" ]
 then
@@ -88,7 +84,6 @@ export RR_BUILDTYPE=Release
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
 if [ "$askvariant" == "5" ]
 then
@@ -98,7 +93,6 @@ export RR_BUILDTYPE=Milestone
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
 if [ "$askvariant" == "6" ]
 then
@@ -108,7 +102,6 @@ export RR_BUILDTYPE=Experimental
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
 if [ "$askvariant" == "7" ]
 then
@@ -118,5 +111,4 @@ export RR_BUILDTYPE=Final
 echo -e "";
 echo -e "";
 $normal
-sleep 1
 fi
